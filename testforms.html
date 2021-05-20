@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>forms</title>
+
+</head>
+<body>
+	<form>
+	 <label>first Name <input type='text' name='firstname' id="firstName" /></label>
+  <label>checkme <input type='checkbox' name="checkbox" id="checkName"  /></label>
+<label>  submit <input type='submit' value="sign up" id="submit"> </label>
+</form>
+
+
+
+
+<script type="text/javascript">
+document.getElementById('submit').onclick=function() {
+	var x=""
+if(document.getElementById("firstName").value== x){
+	alert('first name is not fill');
+}
+
+	if(document.getElementById("checkName").checked="none"){
+		alert("select check box");
+	}
+	
+}
+</script>
+</body>
+</html>
